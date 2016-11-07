@@ -1,0 +1,544 @@
+2016-11-07 15:48:09,034 Started
+2016-11-07 15:48:09,034 finished
+2016-11-07 15:48:09,402  * Debugger is active!
+2016-11-07 15:48:09,403  * Debugger pin code: 201-753-607
+2016-11-07 15:48:12,240 Started
+2016-11-07 15:48:12,241 finished
+2016-11-07 15:48:12,554  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2016-11-07 15:48:12,556  * Restarting with stat
+2016-11-07 15:48:12,912 Started
+2016-11-07 15:48:12,913 finished
+2016-11-07 15:48:13,217  * Debugger is active!
+2016-11-07 15:48:13,217  * Debugger pin code: 201-753-607
+2016-11-07 15:48:50,834  * Detected change in 'C:\\temp\\hackathon\\app\\__init__.py', reloading
+2016-11-07 15:48:50,870  * Restarting with stat
+2016-11-07 15:48:51,173 Started
+2016-11-07 15:48:51,173 finished
+2016-11-07 15:48:51,464  * Debugger is active!
+2016-11-07 15:48:51,464  * Debugger pin code: 201-753-607
+2016-11-07 15:49:41,539  * Detected change in 'C:\\temp\\hackathon\\app\\__init__.py', reloading
+2016-11-07 15:49:41,608  * Restarting with stat
+2016-11-07 15:49:42,202 Started
+2016-11-07 15:49:42,202 finished
+2016-11-07 15:49:42,530  * Debugger is active!
+2016-11-07 15:49:42,531  * Debugger pin code: 201-753-607
+2016-11-07 15:51:19,214  * Detected change in 'C:\\temp\\hackathon\\app\\views.py', reloading
+2016-11-07 15:51:19,239  * Restarting with stat
+2016-11-07 15:51:19,567 Started
+2016-11-07 15:51:19,567 finished
+2016-11-07 15:51:19,937  * Debugger is active!
+2016-11-07 15:51:19,937  * Debugger pin code: 201-753-607
+2016-11-07 15:51:23,988 Started
+2016-11-07 15:51:23,988 finished
+2016-11-07 15:51:24,295  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2016-11-07 15:51:24,297  * Restarting with stat
+2016-11-07 15:51:24,643 Started
+2016-11-07 15:51:24,644 finished
+2016-11-07 15:51:24,957  * Debugger is active!
+2016-11-07 15:51:24,957  * Debugger pin code: 201-753-607
+2016-11-07 15:51:35,075 127.0.0.1 - - [07/Nov/2016 15:51:35] "GET /siteMigration HTTP/1.1" 200 -
+2016-11-07 15:51:35,348 127.0.0.1 - - [07/Nov/2016 15:51:35] "GET /static/images/logo-171x128-32.png HTTP/1.1" 200 -
+2016-11-07 15:51:39,423 127.0.0.1 - - [07/Nov/2016 15:51:39] "GET /calculationReplacement HTTP/1.1" 200 -
+2016-11-07 15:52:12,512 127.0.0.1 - - [07/Nov/2016 15:52:12] "POST /index HTTP/1.1" 500 -
+2016-11-07 15:52:12,746 127.0.0.1 - - [07/Nov/2016 15:52:12] "GET /index?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2016-11-07 15:52:12,838 127.0.0.1 - - [07/Nov/2016 15:52:12] "GET /index?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2016-11-07 15:52:12,848 127.0.0.1 - - [07/Nov/2016 15:52:12] "GET /index?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2016-11-07 15:52:12,902 127.0.0.1 - - [07/Nov/2016 15:52:12] "GET /index?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+2016-11-07 15:52:13,273 127.0.0.1 - - [07/Nov/2016 15:52:13] "GET /index?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2016-11-07 15:52:13,526 127.0.0.1 - - [07/Nov/2016 15:52:13] "GET /index?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2016-11-07 15:53:38,636  * Detected change in 'C:\\temp\\hackathon\\app\\views.py', reloading
+2016-11-07 15:53:38,715  * Restarting with stat
+2016-11-07 15:53:39,199 Started
+2016-11-07 15:53:39,199 finished
+2016-11-07 15:53:39,600  * Debugger is active!
+2016-11-07 15:53:39,601  * Debugger pin code: 201-753-607
+2016-11-07 15:53:41,102 Started
+2016-11-07 15:53:41,103 finished
+2016-11-07 15:53:41,413  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2016-11-07 15:53:41,414  * Restarting with stat
+2016-11-07 15:53:41,754 Started
+2016-11-07 15:53:41,754 finished
+2016-11-07 15:53:42,046  * Debugger is active!
+2016-11-07 15:53:42,046  * Debugger pin code: 201-753-607
+2016-11-07 15:53:47,749 127.0.0.1 - - [07/Nov/2016 15:53:47] "POST /index HTTP/1.1" 500 -
+2016-11-07 15:53:47,775 127.0.0.1 - - [07/Nov/2016 15:53:47] "GET /index?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2016-11-07 15:53:47,781 127.0.0.1 - - [07/Nov/2016 15:53:47] "GET /index?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2016-11-07 15:53:47,792 127.0.0.1 - - [07/Nov/2016 15:53:47] "GET /index?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2016-11-07 15:53:47,871 127.0.0.1 - - [07/Nov/2016 15:53:47] "GET /index?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+2016-11-07 15:53:48,205 127.0.0.1 - - [07/Nov/2016 15:53:48] "GET /index?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2016-11-07 15:54:42,434  * Detected change in 'C:\\temp\\hackathon\\app\\views.py', reloading
+2016-11-07 15:54:42,477  * Restarting with stat
+2016-11-07 15:54:42,782 Started
+2016-11-07 15:54:42,782 finished
+2016-11-07 15:54:43,154  * Debugger is active!
+2016-11-07 15:54:43,155  * Debugger pin code: 201-753-607
+2016-11-07 15:54:45,305 Started
+2016-11-07 15:54:45,305 finished
+2016-11-07 15:54:45,630  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2016-11-07 15:54:45,631  * Restarting with stat
+2016-11-07 15:54:45,986 Started
+2016-11-07 15:54:45,986 finished
+2016-11-07 15:54:46,320  * Debugger is active!
+2016-11-07 15:54:46,321  * Debugger pin code: 201-753-607
+2016-11-07 15:55:03,984 127.0.0.1 - - [07/Nov/2016 15:55:03] "POST /index HTTP/1.1" 500 -
+2016-11-07 15:55:04,016 127.0.0.1 - - [07/Nov/2016 15:55:04] "GET /index?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2016-11-07 15:55:04,026 127.0.0.1 - - [07/Nov/2016 15:55:04] "GET /index?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2016-11-07 15:55:04,042 127.0.0.1 - - [07/Nov/2016 15:55:04] "GET /index?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2016-11-07 15:55:04,440 127.0.0.1 - - [07/Nov/2016 15:55:04] "GET /index?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+2016-11-07 15:55:04,480 127.0.0.1 - - [07/Nov/2016 15:55:04] "GET /index?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2016-11-07 15:55:47,646 127.0.0.1 - - [07/Nov/2016 15:55:47] "GET /calculationReplacement HTTP/1.1" 200 -
+2016-11-07 15:55:57,106 127.0.0.1 - - [07/Nov/2016 15:55:57] "POST /index HTTP/1.1" 500 -
+2016-11-07 15:55:57,349 127.0.0.1 - - [07/Nov/2016 15:55:57] "GET /index?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2016-11-07 15:55:57,433 127.0.0.1 - - [07/Nov/2016 15:55:57] "GET /index?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2016-11-07 15:55:57,440 127.0.0.1 - - [07/Nov/2016 15:55:57] "GET /index?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2016-11-07 15:55:57,509 127.0.0.1 - - [07/Nov/2016 15:55:57] "GET /index?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+2016-11-07 15:55:57,843 127.0.0.1 - - [07/Nov/2016 15:55:57] "GET /index?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2016-11-07 15:57:40,464  * Detected change in 'C:\\temp\\hackathon\\app\\views.py', reloading
+2016-11-07 15:57:40,536  * Restarting with stat
+2016-11-07 15:57:40,940 Started
+2016-11-07 15:57:40,940 finished
+2016-11-07 15:57:41,264  * Debugger is active!
+2016-11-07 15:57:41,264  * Debugger pin code: 201-753-607
+2016-11-07 15:57:50,339 Started
+2016-11-07 15:57:50,339 finished
+2016-11-07 15:57:50,686  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2016-11-07 15:57:50,691  * Restarting with stat
+2016-11-07 15:57:51,955 Started
+2016-11-07 15:57:51,956 finished
+2016-11-07 15:57:52,690  * Debugger is active!
+2016-11-07 15:57:52,691  * Debugger pin code: 201-753-607
+2016-11-07 15:57:58,313 127.0.0.1 - - [07/Nov/2016 15:57:58] "POST /index HTTP/1.1" 500 -
+2016-11-07 15:57:58,350 127.0.0.1 - - [07/Nov/2016 15:57:58] "GET /index?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2016-11-07 15:57:58,356 127.0.0.1 - - [07/Nov/2016 15:57:58] "GET /index?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2016-11-07 15:57:58,656 127.0.0.1 - - [07/Nov/2016 15:57:58] "GET /index?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2016-11-07 15:57:58,970 127.0.0.1 - - [07/Nov/2016 15:57:58] "GET /index?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+2016-11-07 15:57:58,992 127.0.0.1 - - [07/Nov/2016 15:57:58] "GET /index?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2016-11-07 15:59:00,036  * Detected change in 'C:\\temp\\hackathon\\app\\views.py', reloading
+2016-11-07 15:59:00,074  * Restarting with stat
+2016-11-07 15:59:00,403 Started
+2016-11-07 15:59:00,403 finished
+2016-11-07 15:59:00,954  * Debugger is active!
+2016-11-07 15:59:00,955  * Debugger pin code: 201-753-607
+2016-11-07 15:59:52,825  * Detected change in 'C:\\temp\\hackathon\\app\\views.py', reloading
+2016-11-07 15:59:52,892  * Restarting with stat
+2016-11-07 15:59:53,344 Started
+2016-11-07 15:59:53,344 finished
+2016-11-07 15:59:53,723  * Debugger is active!
+2016-11-07 15:59:53,724  * Debugger pin code: 201-753-607
+2016-11-07 15:59:57,842  * Detected change in 'C:\\temp\\hackathon\\app\\views.py', reloading
+2016-11-07 15:59:57,894  * Restarting with stat
+2016-11-07 15:59:58,354 Started
+2016-11-07 15:59:58,354 finished
+2016-11-07 15:59:58,729  * Debugger is active!
+2016-11-07 15:59:58,729  * Debugger pin code: 201-753-607
+2016-11-07 16:00:02,600 Started
+2016-11-07 16:00:02,603 finished
+2016-11-07 16:00:03,167  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2016-11-07 16:00:03,175  * Restarting with stat
+2016-11-07 16:00:03,893 Started
+2016-11-07 16:00:03,893 finished
+2016-11-07 16:00:04,398  * Debugger is active!
+2016-11-07 16:00:04,399  * Debugger pin code: 201-753-607
+2016-11-07 16:00:08,923 127.0.0.1 - - [07/Nov/2016 16:00:08] "POST /index HTTP/1.1" 500 -
+2016-11-07 16:00:09,247 127.0.0.1 - - [07/Nov/2016 16:00:09] "GET /index?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2016-11-07 16:00:09,250 127.0.0.1 - - [07/Nov/2016 16:00:09] "GET /index?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2016-11-07 16:00:09,256 127.0.0.1 - - [07/Nov/2016 16:00:09] "GET /index?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2016-11-07 16:00:09,498 127.0.0.1 - - [07/Nov/2016 16:00:09] "GET /index?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+2016-11-07 16:00:09,613 127.0.0.1 - - [07/Nov/2016 16:00:09] "GET /index?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2016-11-07 16:03:26,451  * Detected change in 'C:\\temp\\hackathon\\app\\views.py', reloading
+2016-11-07 16:03:26,493  * Restarting with stat
+2016-11-07 16:03:26,767 Started
+2016-11-07 16:03:26,767 finished
+2016-11-07 16:03:27,137  * Debugger is active!
+2016-11-07 16:03:27,138  * Debugger pin code: 201-753-607
+2016-11-07 16:03:33,011 Started
+2016-11-07 16:03:33,011 finished
+2016-11-07 16:03:33,344  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2016-11-07 16:03:33,346  * Restarting with stat
+2016-11-07 16:03:33,731 Started
+2016-11-07 16:03:33,731 finished
+2016-11-07 16:03:34,063  * Debugger is active!
+2016-11-07 16:03:34,063  * Debugger pin code: 201-753-607
+2016-11-07 16:03:35,468 127.0.0.1 - - [07/Nov/2016 16:03:35] "POST /index HTTP/1.1" 500 -
+2016-11-07 16:03:35,708 127.0.0.1 - - [07/Nov/2016 16:03:35] "GET /index?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2016-11-07 16:03:35,795 127.0.0.1 - - [07/Nov/2016 16:03:35] "GET /index?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2016-11-07 16:03:35,800 127.0.0.1 - - [07/Nov/2016 16:03:35] "GET /index?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2016-11-07 16:03:35,858 127.0.0.1 - - [07/Nov/2016 16:03:35] "GET /index?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+2016-11-07 16:03:36,186 127.0.0.1 - - [07/Nov/2016 16:03:36] "GET /index?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2016-11-07 16:04:29,823 Started
+2016-11-07 16:04:29,823 finished
+2016-11-07 16:04:30,165  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2016-11-07 16:04:30,167  * Restarting with stat
+2016-11-07 16:04:30,512 Started
+2016-11-07 16:04:30,512 finished
+2016-11-07 16:04:30,884  * Debugger is active!
+2016-11-07 16:04:30,884  * Debugger pin code: 201-753-607
+2016-11-07 16:04:36,529 127.0.0.1 - - [07/Nov/2016 16:04:36] "POST /index HTTP/1.1" 500 -
+2016-11-07 16:04:36,862 127.0.0.1 - - [07/Nov/2016 16:04:36] "GET /index?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2016-11-07 16:04:36,867 127.0.0.1 - - [07/Nov/2016 16:04:36] "GET /index?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2016-11-07 16:04:36,877 127.0.0.1 - - [07/Nov/2016 16:04:36] "GET /index?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2016-11-07 16:04:37,108 127.0.0.1 - - [07/Nov/2016 16:04:37] "GET /index?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+2016-11-07 16:04:37,237 127.0.0.1 - - [07/Nov/2016 16:04:37] "GET /index?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2016-11-07 16:07:07,815  * Detected change in 'C:\\temp\\hackathon\\app\\views.py', reloading
+2016-11-07 16:07:07,860  * Restarting with stat
+2016-11-07 16:07:08,241 Started
+2016-11-07 16:07:08,241 finished
+2016-11-07 16:07:08,629  * Debugger is active!
+2016-11-07 16:07:08,629  * Debugger pin code: 201-753-607
+2016-11-07 16:07:11,396 Started
+2016-11-07 16:07:11,397 finished
+2016-11-07 16:07:11,795  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2016-11-07 16:07:11,798  * Restarting with stat
+2016-11-07 16:07:12,158 Started
+2016-11-07 16:07:12,158 finished
+2016-11-07 16:07:12,480  * Debugger is active!
+2016-11-07 16:07:12,480  * Debugger pin code: 201-753-607
+2016-11-07 16:07:16,826 127.0.0.1 - - [07/Nov/2016 16:07:16] "GET /calculationReplacement HTTP/1.1" 200 -
+2016-11-07 16:07:17,292 127.0.0.1 - - [07/Nov/2016 16:07:17] "GET /static/images/logo-171x128-32.png HTTP/1.1" 200 -
+2016-11-07 16:07:28,139 127.0.0.1 - - [07/Nov/2016 16:07:28] "POST /calculationReplacement HTTP/1.1" 500 -
+2016-11-07 16:07:28,375 127.0.0.1 - - [07/Nov/2016 16:07:28] "GET /calculationReplacement?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2016-11-07 16:07:28,465 127.0.0.1 - - [07/Nov/2016 16:07:28] "GET /calculationReplacement?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2016-11-07 16:07:28,472 127.0.0.1 - - [07/Nov/2016 16:07:28] "GET /calculationReplacement?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2016-11-07 16:07:28,522 127.0.0.1 - - [07/Nov/2016 16:07:28] "GET /calculationReplacement?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+2016-11-07 16:07:28,898 127.0.0.1 - - [07/Nov/2016 16:07:28] "GET /calculationReplacement?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2016-11-07 16:07:29,148 127.0.0.1 - - [07/Nov/2016 16:07:29] "GET /calculationReplacement?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2016-11-07 16:08:09,863  * Detected change in 'C:\\temp\\hackathon\\app\\views.py', reloading
+2016-11-07 16:08:09,899  * Restarting with stat
+2016-11-07 16:08:10,271 Started
+2016-11-07 16:08:10,271 finished
+2016-11-07 16:08:10,581  * Debugger is active!
+2016-11-07 16:08:10,582  * Debugger pin code: 201-753-607
+2016-11-07 16:08:12,952 Started
+2016-11-07 16:08:12,952 finished
+2016-11-07 16:08:13,615  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2016-11-07 16:08:13,617  * Restarting with stat
+2016-11-07 16:08:14,013 Started
+2016-11-07 16:08:14,013 finished
+2016-11-07 16:08:14,334  * Debugger is active!
+2016-11-07 16:08:14,334  * Debugger pin code: 201-753-607
+2016-11-07 16:08:20,870 127.0.0.1 - - [07/Nov/2016 16:08:20] "GET /calculationReplacement HTTP/1.1" 200 -
+2016-11-07 16:08:21,352 127.0.0.1 - - [07/Nov/2016 16:08:21] "GET /static/images/logo-171x128-32.png HTTP/1.1" 200 -
+2016-11-07 16:08:29,090 1
+2016-11-07 16:08:29,091 2
+2016-11-07 16:08:29,107 127.0.0.1 - - [07/Nov/2016 16:08:29] "POST /calculationReplacement HTTP/1.1" 500 -
+2016-11-07 16:08:29,430 127.0.0.1 - - [07/Nov/2016 16:08:29] "GET /calculationReplacement?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2016-11-07 16:08:29,435 127.0.0.1 - - [07/Nov/2016 16:08:29] "GET /calculationReplacement?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2016-11-07 16:08:29,441 127.0.0.1 - - [07/Nov/2016 16:08:29] "GET /calculationReplacement?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2016-11-07 16:08:29,683 127.0.0.1 - - [07/Nov/2016 16:08:29] "GET /calculationReplacement?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+2016-11-07 16:08:29,800 127.0.0.1 - - [07/Nov/2016 16:08:29] "GET /calculationReplacement?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2016-11-07 16:08:29,831 127.0.0.1 - - [07/Nov/2016 16:08:29] "GET /calculationReplacement?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2016-11-07 16:13:59,840  * Detected change in 'C:\\temp\\hackathon\\app\\views.py', reloading
+2016-11-07 16:13:59,878  * Restarting with stat
+2016-11-07 16:14:00,231 Started
+2016-11-07 16:14:00,231 finished
+2016-11-07 16:14:00,594  * Debugger is active!
+2016-11-07 16:14:00,595  * Debugger pin code: 201-753-607
+2016-11-07 16:14:05,148 Started
+2016-11-07 16:14:05,148 finished
+2016-11-07 16:14:05,457  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2016-11-07 16:14:05,459  * Restarting with stat
+2016-11-07 16:14:05,800 Started
+2016-11-07 16:14:05,800 finished
+2016-11-07 16:14:06,116  * Debugger is active!
+2016-11-07 16:14:06,117  * Debugger pin code: 201-753-607
+2016-11-07 16:14:18,783 1
+2016-11-07 16:14:18,784 2
+2016-11-07 16:14:18,801 127.0.0.1 - - [07/Nov/2016 16:14:18] "POST /calculationReplacement HTTP/1.1" 500 -
+2016-11-07 16:14:19,132 127.0.0.1 - - [07/Nov/2016 16:14:19] "GET /calculationReplacement?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2016-11-07 16:14:19,135 127.0.0.1 - - [07/Nov/2016 16:14:19] "GET /calculationReplacement?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2016-11-07 16:14:19,143 127.0.0.1 - - [07/Nov/2016 16:14:19] "GET /calculationReplacement?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2016-11-07 16:14:19,381 127.0.0.1 - - [07/Nov/2016 16:14:19] "GET /calculationReplacement?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+2016-11-07 16:14:19,493 127.0.0.1 - - [07/Nov/2016 16:14:19] "GET /calculationReplacement?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2016-11-07 16:14:19,517 127.0.0.1 - - [07/Nov/2016 16:14:19] "GET /calculationReplacement?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2016-11-07 16:17:06,927  * Detected change in 'C:\\temp\\hackathon\\app\\views.py', reloading
+2016-11-07 16:17:06,972  * Restarting with stat
+2016-11-07 16:17:07,261 Started
+2016-11-07 16:17:07,261 finished
+2016-11-07 16:17:07,594  * Debugger is active!
+2016-11-07 16:17:07,595  * Debugger pin code: 201-753-607
+2016-11-07 16:17:30,205  * Detected change in 'C:\\temp\\hackathon\\app\\views.py', reloading
+2016-11-07 16:17:30,237  * Restarting with stat
+2016-11-07 16:17:30,597 Started
+2016-11-07 16:17:30,597 finished
+2016-11-07 16:17:30,978  * Debugger is active!
+2016-11-07 16:17:30,979  * Debugger pin code: 201-753-607
+2016-11-07 16:17:35,532 Started
+2016-11-07 16:17:35,532 finished
+2016-11-07 16:17:35,866  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2016-11-07 16:17:35,867  * Restarting with stat
+2016-11-07 16:17:36,272 Started
+2016-11-07 16:17:36,272 finished
+2016-11-07 16:17:36,681  * Debugger is active!
+2016-11-07 16:17:36,681  * Debugger pin code: 201-753-607
+2016-11-07 16:17:48,711 1
+2016-11-07 16:17:48,712 2
+2016-11-07 16:17:48,742 127.0.0.1 - - [07/Nov/2016 16:17:48] "POST /calculationReplacement HTTP/1.1" 500 -
+2016-11-07 16:17:48,779 127.0.0.1 - - [07/Nov/2016 16:17:48] "GET /calculationReplacement?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2016-11-07 16:17:49,086 127.0.0.1 - - [07/Nov/2016 16:17:49] "GET /calculationReplacement?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2016-11-07 16:17:49,093 127.0.0.1 - - [07/Nov/2016 16:17:49] "GET /calculationReplacement?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2016-11-07 16:17:49,461 127.0.0.1 - - [07/Nov/2016 16:17:49] "GET /calculationReplacement?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+2016-11-07 16:17:49,497 127.0.0.1 - - [07/Nov/2016 16:17:49] "GET /calculationReplacement?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2016-11-07 16:17:49,712 127.0.0.1 - - [07/Nov/2016 16:17:49] "GET /calculationReplacement?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2016-11-07 16:20:16,221  * Detected change in 'C:\\temp\\hackathon\\app\\views.py', reloading
+2016-11-07 16:20:16,255  * Restarting with stat
+2016-11-07 16:20:16,589 Started
+2016-11-07 16:20:16,589 finished
+2016-11-07 16:20:16,921  * Debugger is active!
+2016-11-07 16:20:16,922  * Debugger pin code: 201-753-607
+2016-11-07 16:20:21,008  * Detected change in 'C:\\temp\\hackathon\\app\\views.py', reloading
+2016-11-07 16:20:21,046  * Restarting with stat
+2016-11-07 16:20:21,407 Started
+2016-11-07 16:20:21,407 finished
+2016-11-07 16:20:21,748  * Debugger is active!
+2016-11-07 16:20:21,748  * Debugger pin code: 201-753-607
+2016-11-07 16:20:25,245 Started
+2016-11-07 16:20:25,245 finished
+2016-11-07 16:20:25,553  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2016-11-07 16:20:25,555  * Restarting with stat
+2016-11-07 16:20:25,913 Started
+2016-11-07 16:20:25,913 finished
+2016-11-07 16:20:26,213  * Debugger is active!
+2016-11-07 16:20:26,214  * Debugger pin code: 201-753-607
+2016-11-07 16:20:35,261 1
+2016-11-07 16:20:35,262 0
+2016-11-07 16:20:35,262 2
+2016-11-07 16:20:35,291 127.0.0.1 - - [07/Nov/2016 16:20:35] "POST /calculationReplacement HTTP/1.1" 500 -
+2016-11-07 16:20:35,321 127.0.0.1 - - [07/Nov/2016 16:20:35] "GET /calculationReplacement?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2016-11-07 16:20:35,620 127.0.0.1 - - [07/Nov/2016 16:20:35] "GET /calculationReplacement?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2016-11-07 16:20:35,627 127.0.0.1 - - [07/Nov/2016 16:20:35] "GET /calculationReplacement?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2016-11-07 16:20:35,978 127.0.0.1 - - [07/Nov/2016 16:20:35] "GET /calculationReplacement?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+2016-11-07 16:20:36,076 127.0.0.1 - - [07/Nov/2016 16:20:36] "GET /calculationReplacement?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2016-11-07 16:20:36,230 127.0.0.1 - - [07/Nov/2016 16:20:36] "GET /calculationReplacement?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2016-11-07 16:25:47,108 Started
+2016-11-07 16:25:47,109 finished
+2016-11-07 16:25:47,520  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2016-11-07 16:25:47,527  * Restarting with stat
+2016-11-07 16:25:48,258 Started
+2016-11-07 16:25:48,258 finished
+2016-11-07 16:25:48,921  * Debugger is active!
+2016-11-07 16:25:48,922  * Debugger pin code: 201-753-607
+2016-11-07 16:26:02,708 1
+2016-11-07 16:26:02,709 0
+2016-11-07 16:26:02,709 2
+2016-11-07 16:26:02,738 127.0.0.1 - - [07/Nov/2016 16:26:02] "POST /calculationReplacement HTTP/1.1" 500 -
+2016-11-07 16:26:02,773 127.0.0.1 - - [07/Nov/2016 16:26:02] "GET /calculationReplacement?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2016-11-07 16:26:03,076 127.0.0.1 - - [07/Nov/2016 16:26:03] "GET /calculationReplacement?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2016-11-07 16:26:03,084 127.0.0.1 - - [07/Nov/2016 16:26:03] "GET /calculationReplacement?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2016-11-07 16:26:03,437 127.0.0.1 - - [07/Nov/2016 16:26:03] "GET /calculationReplacement?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+2016-11-07 16:26:03,530 127.0.0.1 - - [07/Nov/2016 16:26:03] "GET /calculationReplacement?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2016-11-07 16:26:03,687 127.0.0.1 - - [07/Nov/2016 16:26:03] "GET /calculationReplacement?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2016-11-07 16:29:11,119 1
+2016-11-07 16:29:11,120 0
+2016-11-07 16:29:11,120 2
+2016-11-07 16:29:11,140 127.0.0.1 - - [07/Nov/2016 16:29:11] "POST /calculationReplacement HTTP/1.1" 500 -
+2016-11-07 16:29:11,181 127.0.0.1 - - [07/Nov/2016 16:29:11] "GET /calculationReplacement?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2016-11-07 16:29:11,477 127.0.0.1 - - [07/Nov/2016 16:29:11] "GET /calculationReplacement?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2016-11-07 16:29:11,484 127.0.0.1 - - [07/Nov/2016 16:29:11] "GET /calculationReplacement?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2016-11-07 16:29:11,840 127.0.0.1 - - [07/Nov/2016 16:29:11] "GET /calculationReplacement?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+2016-11-07 16:29:11,920 127.0.0.1 - - [07/Nov/2016 16:29:11] "GET /calculationReplacement?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2016-11-07 16:29:12,089 127.0.0.1 - - [07/Nov/2016 16:29:12] "GET /calculationReplacement?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2016-11-07 16:32:23,661  * Detected change in 'C:\\temp\\hackathon\\app\\__init__.py', reloading
+2016-11-07 16:32:23,700  * Restarting with stat
+2016-11-07 16:32:24,046 Started
+2016-11-07 16:32:24,047 finished
+2016-11-07 16:32:24,404  * Debugger is active!
+2016-11-07 16:32:24,404  * Debugger pin code: 201-753-607
+2016-11-07 16:32:26,628 Started
+2016-11-07 16:32:26,629 finished
+2016-11-07 16:32:27,213  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2016-11-07 16:32:27,224  * Restarting with stat
+2016-11-07 16:32:27,868 Started
+2016-11-07 16:32:27,869 finished
+2016-11-07 16:32:28,310  * Debugger is active!
+2016-11-07 16:32:28,310  * Debugger pin code: 201-753-607
+2016-11-07 16:32:32,471  * Detected change in 'C:\\temp\\hackathon\\app\\__init__.py', reloading
+2016-11-07 16:32:32,503  * Restarting with stat
+2016-11-07 16:32:32,808 Started
+2016-11-07 16:32:32,809 finished
+2016-11-07 16:32:34,191 Started
+2016-11-07 16:32:34,192 finished
+2016-11-07 16:32:34,554  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2016-11-07 16:32:34,557  * Restarting with stat
+2016-11-07 16:32:34,932 Started
+2016-11-07 16:32:34,932 finished
+2016-11-07 16:32:35,959  * Debugger is active!
+2016-11-07 16:32:35,960  * Debugger pin code: 201-753-607
+2016-11-07 16:32:43,054 1
+2016-11-07 16:32:43,055 0
+2016-11-07 16:32:43,055 2
+2016-11-07 16:32:43,072 127.0.0.1 - - [07/Nov/2016 16:32:43] "POST /calculationReplacement HTTP/1.1" 500 -
+2016-11-07 16:32:43,306 127.0.0.1 - - [07/Nov/2016 16:32:43] "GET /calculationReplacement?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2016-11-07 16:32:43,408 127.0.0.1 - - [07/Nov/2016 16:32:43] "GET /calculationReplacement?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2016-11-07 16:32:43,412 127.0.0.1 - - [07/Nov/2016 16:32:43] "GET /calculationReplacement?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2016-11-07 16:32:43,469 127.0.0.1 - - [07/Nov/2016 16:32:43] "GET /calculationReplacement?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+2016-11-07 16:32:43,799 127.0.0.1 - - [07/Nov/2016 16:32:43] "GET /calculationReplacement?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2016-11-07 16:32:44,049 127.0.0.1 - - [07/Nov/2016 16:32:44] "GET /calculationReplacement?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2016-11-07 16:34:23,172  * Detected change in 'C:\\temp\\hackathon\\app\\__init__.py', reloading
+2016-11-07 16:34:23,209  * Restarting with stat
+2016-11-07 16:34:23,565 Started
+2016-11-07 16:34:23,565 finished
+2016-11-07 16:34:23,884  * Debugger is active!
+2016-11-07 16:34:23,884  * Debugger pin code: 201-753-607
+2016-11-07 16:34:31,683 Started
+2016-11-07 16:34:31,683 finished
+2016-11-07 16:34:31,996  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2016-11-07 16:34:31,998  * Restarting with stat
+2016-11-07 16:34:32,353 Started
+2016-11-07 16:34:32,353 finished
+2016-11-07 16:34:33,167  * Debugger is active!
+2016-11-07 16:34:33,168  * Debugger pin code: 201-753-607
+2016-11-07 16:34:39,170 127.0.0.1 - - [07/Nov/2016 16:34:39] "GET /calculationReplacement HTTP/1.1" 200 -
+2016-11-07 16:34:39,319 127.0.0.1 - - [07/Nov/2016 16:34:39] "GET /static/images/logo-171x128-32.png HTTP/1.1" 200 -
+2016-11-07 16:34:47,824 1
+2016-11-07 16:34:48,212 1
+2016-11-07 16:34:48,213 2
+2016-11-07 16:34:48,213 Price Review.twb
+2016-11-07 16:34:48,227 127.0.0.1 - - [07/Nov/2016 16:34:48] "POST /calculationReplacement HTTP/1.1" 500 -
+2016-11-07 16:34:48,252 127.0.0.1 - - [07/Nov/2016 16:34:48] "GET /calculationReplacement?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2016-11-07 16:34:48,553 127.0.0.1 - - [07/Nov/2016 16:34:48] "GET /calculationReplacement?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2016-11-07 16:34:48,558 127.0.0.1 - - [07/Nov/2016 16:34:48] "GET /calculationReplacement?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2016-11-07 16:34:48,903 127.0.0.1 - - [07/Nov/2016 16:34:48] "GET /calculationReplacement?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+2016-11-07 16:34:48,920 127.0.0.1 - - [07/Nov/2016 16:34:48] "GET /calculationReplacement?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2016-11-07 16:34:49,155 127.0.0.1 - - [07/Nov/2016 16:34:49] "GET /calculationReplacement?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2016-11-07 16:35:28,485  * Detected change in 'C:\\temp\\hackathon\\app\\__init__.py', reloading
+2016-11-07 16:35:28,537  * Restarting with stat
+2016-11-07 16:35:28,888 Started
+2016-11-07 16:35:28,888 finished
+2016-11-07 16:35:29,194  * Debugger is active!
+2016-11-07 16:35:29,194  * Debugger pin code: 201-753-607
+2016-11-07 16:35:31,144 Started
+2016-11-07 16:35:31,144 finished
+2016-11-07 16:35:31,490  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2016-11-07 16:35:31,492  * Restarting with stat
+2016-11-07 16:35:31,858 Started
+2016-11-07 16:35:31,859 finished
+2016-11-07 16:35:32,205  * Debugger is active!
+2016-11-07 16:35:32,205  * Debugger pin code: 201-753-607
+2016-11-07 16:35:46,481 1
+2016-11-07 16:35:46,485 1
+2016-11-07 16:35:46,486 2
+2016-11-07 16:35:46,486 csvTemplate.py
+2016-11-07 16:35:46,570 127.0.0.1 - - [07/Nov/2016 16:35:46] "POST /calculationReplacement HTTP/1.1" 500 -
+2016-11-07 16:35:46,639 127.0.0.1 - - [07/Nov/2016 16:35:46] "GET /calculationReplacement?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2016-11-07 16:35:46,927 127.0.0.1 - - [07/Nov/2016 16:35:46] "GET /calculationReplacement?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2016-11-07 16:35:46,937 127.0.0.1 - - [07/Nov/2016 16:35:46] "GET /calculationReplacement?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2016-11-07 16:35:47,330 127.0.0.1 - - [07/Nov/2016 16:35:47] "GET /calculationReplacement?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+2016-11-07 16:35:47,389 127.0.0.1 - - [07/Nov/2016 16:35:47] "GET /calculationReplacement?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2016-11-07 16:35:47,580 127.0.0.1 - - [07/Nov/2016 16:35:47] "GET /calculationReplacement?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2016-11-07 16:36:48,822 Started
+2016-11-07 16:36:48,822 finished
+2016-11-07 16:36:49,169  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2016-11-07 16:36:49,172  * Restarting with stat
+2016-11-07 16:36:49,544 Started
+2016-11-07 16:36:49,544 finished
+2016-11-07 16:36:49,879  * Debugger is active!
+2016-11-07 16:36:49,880  * Debugger pin code: 201-753-607
+2016-11-07 16:37:03,542 1
+2016-11-07 16:37:03,543 1
+2016-11-07 16:37:03,543 2
+2016-11-07 16:37:03,544 test.csv
+2016-11-07 16:37:03,562 127.0.0.1 - - [07/Nov/2016 16:37:03] "POST /calculationReplacement HTTP/1.1" 500 -
+2016-11-07 16:37:03,791 127.0.0.1 - - [07/Nov/2016 16:37:03] "GET /calculationReplacement?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2016-11-07 16:37:03,891 127.0.0.1 - - [07/Nov/2016 16:37:03] "GET /calculationReplacement?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2016-11-07 16:37:03,896 127.0.0.1 - - [07/Nov/2016 16:37:03] "GET /calculationReplacement?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2016-11-07 16:37:03,961 127.0.0.1 - - [07/Nov/2016 16:37:03] "GET /calculationReplacement?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+2016-11-07 16:37:04,305 127.0.0.1 - - [07/Nov/2016 16:37:04] "GET /calculationReplacement?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2016-11-07 16:37:04,556 127.0.0.1 - - [07/Nov/2016 16:37:04] "GET /calculationReplacement?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2016-11-07 16:37:13,507  * Detected change in 'C:\\temp\\hackathon\\app\\__init__.py', reloading
+2016-11-07 16:37:13,539  * Restarting with stat
+2016-11-07 16:37:13,896 Started
+2016-11-07 16:37:13,896 finished
+2016-11-07 16:37:14,372  * Debugger is active!
+2016-11-07 16:37:14,372  * Debugger pin code: 201-753-607
+2016-11-07 16:37:27,210 Started
+2016-11-07 16:37:27,210 finished
+2016-11-07 16:37:27,523  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2016-11-07 16:37:27,524  * Restarting with stat
+2016-11-07 16:37:28,270 Started
+2016-11-07 16:37:28,270 finished
+2016-11-07 16:37:28,974  * Debugger is active!
+2016-11-07 16:37:28,975  * Debugger pin code: 201-753-607
+2016-11-07 16:37:34,337 1
+2016-11-07 16:37:34,340 1
+2016-11-07 16:37:34,342 2
+2016-11-07 16:37:34,343 test.csv
+2016-11-07 16:37:34,358 127.0.0.1 - - [07/Nov/2016 16:37:34] "POST /calculationReplacement HTTP/1.1" 500 -
+2016-11-07 16:37:34,379 127.0.0.1 - - [07/Nov/2016 16:37:34] "GET /calculationReplacement?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2016-11-07 16:37:34,683 127.0.0.1 - - [07/Nov/2016 16:37:34] "GET /calculationReplacement?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2016-11-07 16:37:34,691 127.0.0.1 - - [07/Nov/2016 16:37:34] "GET /calculationReplacement?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2016-11-07 16:37:35,051 127.0.0.1 - - [07/Nov/2016 16:37:35] "GET /calculationReplacement?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+2016-11-07 16:37:35,077 127.0.0.1 - - [07/Nov/2016 16:37:35] "GET /calculationReplacement?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2016-11-07 16:37:35,300 127.0.0.1 - - [07/Nov/2016 16:37:35] "GET /calculationReplacement?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2016-11-07 16:37:42,326  * Detected change in 'C:\\temp\\hackathon\\app\\__init__.py', reloading
+2016-11-07 16:37:42,362  * Restarting with stat
+2016-11-07 16:37:42,741 Started
+2016-11-07 16:37:42,742 finished
+2016-11-07 16:37:43,162  * Debugger is active!
+2016-11-07 16:37:43,165  * Debugger pin code: 201-753-607
+2016-11-07 16:39:10,960  * Detected change in 'C:\\temp\\hackathon\\app\\views.py', reloading
+2016-11-07 16:39:11,031  * Restarting with stat
+2016-11-07 16:39:11,342 Started
+2016-11-07 16:39:11,342 finished
+2016-11-07 16:39:11,662  * Debugger is active!
+2016-11-07 16:39:11,663  * Debugger pin code: 201-753-607
+2016-11-07 16:39:33,295 Started
+2016-11-07 16:39:33,295 finished
+2016-11-07 16:39:33,777  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2016-11-07 16:39:33,779  * Restarting with stat
+2016-11-07 16:39:34,592 Started
+2016-11-07 16:39:34,592 finished
+2016-11-07 16:39:35,171  * Debugger is active!
+2016-11-07 16:39:35,172  * Debugger pin code: 201-753-607
+2016-11-07 16:40:18,603 1
+2016-11-07 16:40:19,327 1
+2016-11-07 16:40:19,327 2
+2016-11-07 16:40:19,327 Price Review.twb
+2016-11-07 16:40:19,499 127.0.0.1 - - [07/Nov/2016 16:40:19] "POST /calculationReplacement HTTP/1.1" 500 -
+2016-11-07 16:40:19,883 127.0.0.1 - - [07/Nov/2016 16:40:19] "GET /calculationReplacement?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2016-11-07 16:40:19,888 127.0.0.1 - - [07/Nov/2016 16:40:19] "GET /calculationReplacement?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2016-11-07 16:40:19,903 127.0.0.1 - - [07/Nov/2016 16:40:19] "GET /calculationReplacement?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2016-11-07 16:40:20,135 127.0.0.1 - - [07/Nov/2016 16:40:20] "GET /calculationReplacement?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+2016-11-07 16:40:20,355 127.0.0.1 - - [07/Nov/2016 16:40:20] "GET /calculationReplacement?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2016-11-07 16:40:20,408 127.0.0.1 - - [07/Nov/2016 16:40:20] "GET /calculationReplacement?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2016-11-07 16:42:11,930 Started
+2016-11-07 16:42:11,930 finished
+2016-11-07 16:42:12,319  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2016-11-07 16:42:12,322  * Restarting with stat
+2016-11-07 16:42:12,709 Started
+2016-11-07 16:42:12,709 finished
+2016-11-07 16:42:13,205  * Debugger is active!
+2016-11-07 16:42:13,206  * Debugger pin code: 201-753-607
+2016-11-07 16:42:20,824 127.0.0.1 - - [07/Nov/2016 16:42:20] "GET /calculationReplacement HTTP/1.1" 200 -
+2016-11-07 16:42:20,993 127.0.0.1 - - [07/Nov/2016 16:42:20] "GET /static/images/logo-171x128-32.png HTTP/1.1" 200 -
+2016-11-07 16:42:28,509 1
+2016-11-07 16:42:28,889 2
+2016-11-07 16:42:28,890 2
+2016-11-07 16:42:28,890 Price Review.twb
+2016-11-07 16:42:28,952 test.csv
+2016-11-07 16:42:28,955 3
+2016-11-07 16:42:29,674 4
+2016-11-07 16:42:29,676 127.0.0.1 - - [07/Nov/2016 16:42:29] "POST /calculationReplacement HTTP/1.1" 302 -
+2016-11-07 16:42:29,684 127.0.0.1 - - [07/Nov/2016 16:42:29] "GET /downloads/Price_Review.twb HTTP/1.1" 200 -
+2016-11-07 17:17:53,902 1
+2016-11-07 17:17:53,904 2
+2016-11-07 17:17:53,905 2
+2016-11-07 17:17:53,905 Book1.twb
+2016-11-07 17:17:53,912 test.csv
+2016-11-07 17:17:53,914 3
+2016-11-07 17:17:53,935 4
+2016-11-07 17:17:53,937 127.0.0.1 - - [07/Nov/2016 17:17:53] "POST /calculationReplacement HTTP/1.1" 302 -
+2016-11-07 17:17:54,152 127.0.0.1 - - [07/Nov/2016 17:17:54] "GET /downloads/Book1.twb HTTP/1.1" 200 -
+2016-11-07 17:44:03,232  * Detected change in 'C:\\temp\\hackathon\\app\\views.py', reloading
+2016-11-07 17:44:03,288  * Restarting with stat
+2016-11-07 17:44:05,707 Started
+2016-11-07 17:44:05,707 finished
+2016-11-07 17:44:06,189  * Debugger is active!
+2016-11-07 17:44:06,190  * Debugger pin code: 201-753-607
+2016-11-07 17:44:23,230 Started
+2016-11-07 17:44:23,230 finished
+2016-11-07 17:44:23,542  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2016-11-07 17:44:23,544  * Restarting with stat
+2016-11-07 17:44:24,266 Started
+2016-11-07 17:44:24,267 finished
+2016-11-07 17:44:24,704  * Debugger is active!
+2016-11-07 17:44:24,704  * Debugger pin code: 201-753-607

@@ -1,0 +1,317 @@
+<workbook xmlns:ns0="http://www.tableausoftware.com/xml/user" source-platform="win" version="9.2">
+  <preferences>
+    <preference name="ui.encoding.shelf.height" value="24" />
+    <preference name="ui.shelf.height" value="26" />
+  </preferences>
+  <datasources>
+    <datasource caption="Sacramentorealestatetransactions (sampledb)" inline="true" name="sqlserver.15cn6fm1hbbs2j1gn7f5i1dzi7ti" version="9.2">
+      <connection authentication="sspi" class="sqlserver" dbname="sampledb" odbc-native-protocol="yes" server="psopt7-v">
+        <relation name="Sacramentorealestatetransactions" table="[dbo].[Sacramentorealestatetransactions]" type="table" />
+        <metadata-records>
+          <metadata-record class="column">
+            <remote-name>street</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[street]</local-name>
+            <parent-name>[Sacramentorealestatetransactions]</parent-name>
+            <remote-alias>street</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>50</width>
+            <contains-null>true</contains-null>
+            <padded-semantics>true</padded-semantics>
+            <collation flag="2147483649" name="LEN_RUS_S2_VWIN" />
+            <attributes>
+              <attribute datatype="string" name="DebugRemoteType">"SQL_VARCHAR"</attribute>
+              <attribute datatype="string" name="DebugWireType">"SQL_C_CHAR"</attribute>
+              <attribute datatype="string" name="TypeIsVarchar">"true"</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class="column">
+            <remote-name>city</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[city]</local-name>
+            <parent-name>[Sacramentorealestatetransactions]</parent-name>
+            <remote-alias>city</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>50</width>
+            <contains-null>true</contains-null>
+            <padded-semantics>true</padded-semantics>
+            <collation flag="2147483649" name="LEN_RUS_S2_VWIN" />
+            <attributes>
+              <attribute datatype="string" name="DebugRemoteType">"SQL_VARCHAR"</attribute>
+              <attribute datatype="string" name="DebugWireType">"SQL_C_CHAR"</attribute>
+              <attribute datatype="string" name="TypeIsVarchar">"true"</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class="column">
+            <remote-name>zip</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[zip]</local-name>
+            <parent-name>[Sacramentorealestatetransactions]</parent-name>
+            <remote-alias>zip</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>50</width>
+            <contains-null>true</contains-null>
+            <padded-semantics>true</padded-semantics>
+            <collation flag="2147483649" name="LEN_RUS_S2_VWIN" />
+            <attributes>
+              <attribute datatype="string" name="DebugRemoteType">"SQL_VARCHAR"</attribute>
+              <attribute datatype="string" name="DebugWireType">"SQL_C_CHAR"</attribute>
+              <attribute datatype="string" name="TypeIsVarchar">"true"</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class="column">
+            <remote-name>state</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[state]</local-name>
+            <parent-name>[Sacramentorealestatetransactions]</parent-name>
+            <remote-alias>state</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>50</width>
+            <contains-null>true</contains-null>
+            <padded-semantics>true</padded-semantics>
+            <collation flag="2147483649" name="LEN_RUS_S2_VWIN" />
+            <attributes>
+              <attribute datatype="string" name="DebugRemoteType">"SQL_VARCHAR"</attribute>
+              <attribute datatype="string" name="DebugWireType">"SQL_C_CHAR"</attribute>
+              <attribute datatype="string" name="TypeIsVarchar">"true"</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class="column">
+            <remote-name>beds</remote-name>
+            <remote-type>131</remote-type>
+            <local-name>[beds]</local-name>
+            <parent-name>[Sacramentorealestatetransactions]</parent-name>
+            <remote-alias>beds</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>18</precision>
+            <scale>0</scale>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype="string" name="DebugRemoteType">"SQL_NUMERIC"</attribute>
+              <attribute datatype="string" name="DebugWireType">"SQL_C_NUMERIC"</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class="column">
+            <remote-name>baths</remote-name>
+            <remote-type>131</remote-type>
+            <local-name>[baths]</local-name>
+            <parent-name>[Sacramentorealestatetransactions]</parent-name>
+            <remote-alias>baths</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>28</precision>
+            <scale>0</scale>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype="string" name="DebugRemoteType">"SQL_DECIMAL"</attribute>
+              <attribute datatype="string" name="DebugWireType">"SQL_C_NUMERIC"</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class="column">
+            <remote-name>sq__ft</remote-name>
+            <remote-type>131</remote-type>
+            <local-name>[sq__ft]</local-name>
+            <parent-name>[Sacramentorealestatetransactions]</parent-name>
+            <remote-alias>sq__ft</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>28</precision>
+            <scale>0</scale>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype="string" name="DebugRemoteType">"SQL_DECIMAL"</attribute>
+              <attribute datatype="string" name="DebugWireType">"SQL_C_NUMERIC"</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class="column">
+            <remote-name>type</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[type]</local-name>
+            <parent-name>[Sacramentorealestatetransactions]</parent-name>
+            <remote-alias>type</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>50</width>
+            <contains-null>true</contains-null>
+            <padded-semantics>true</padded-semantics>
+            <collation flag="2147483649" name="LEN_RUS_S2_VWIN" />
+            <attributes>
+              <attribute datatype="string" name="DebugRemoteType">"SQL_VARCHAR"</attribute>
+              <attribute datatype="string" name="DebugWireType">"SQL_C_CHAR"</attribute>
+              <attribute datatype="string" name="TypeIsVarchar">"true"</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class="column">
+            <remote-name>sale_date</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[sale_date]</local-name>
+            <parent-name>[Sacramentorealestatetransactions]</parent-name>
+            <remote-alias>sale_date</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>50</width>
+            <contains-null>true</contains-null>
+            <padded-semantics>true</padded-semantics>
+            <collation flag="2147483649" name="LEN_RUS_S2_VWIN" />
+            <attributes>
+              <attribute datatype="string" name="DebugRemoteType">"SQL_VARCHAR"</attribute>
+              <attribute datatype="string" name="DebugWireType">"SQL_C_CHAR"</attribute>
+              <attribute datatype="string" name="TypeIsVarchar">"true"</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class="column">
+            <remote-name>price</remote-name>
+            <remote-type>131</remote-type>
+            <local-name>[price]</local-name>
+            <parent-name>[Sacramentorealestatetransactions]</parent-name>
+            <remote-alias>price</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>28</precision>
+            <scale>0</scale>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype="string" name="DebugRemoteType">"SQL_DECIMAL"</attribute>
+              <attribute datatype="string" name="DebugWireType">"SQL_C_NUMERIC"</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class="column">
+            <remote-name>latitude</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[latitude]</local-name>
+            <parent-name>[Sacramentorealestatetransactions]</parent-name>
+            <remote-alias>latitude</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>50</width>
+            <contains-null>true</contains-null>
+            <padded-semantics>true</padded-semantics>
+            <collation flag="2147483649" name="LEN_RUS_S2_VWIN" />
+            <attributes>
+              <attribute datatype="string" name="DebugRemoteType">"SQL_VARCHAR"</attribute>
+              <attribute datatype="string" name="DebugWireType">"SQL_C_CHAR"</attribute>
+              <attribute datatype="string" name="TypeIsVarchar">"true"</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class="column">
+            <remote-name>longitude</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[longitude]</local-name>
+            <parent-name>[Sacramentorealestatetransactions]</parent-name>
+            <remote-alias>longitude</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>50</width>
+            <contains-null>true</contains-null>
+            <padded-semantics>true</padded-semantics>
+            <collation flag="2147483649" name="LEN_RUS_S2_VWIN" />
+            <attributes>
+              <attribute datatype="string" name="DebugRemoteType">"SQL_VARCHAR"</attribute>
+              <attribute datatype="string" name="DebugWireType">"SQL_C_CHAR"</attribute>
+              <attribute datatype="string" name="TypeIsVarchar">"true"</attribute>
+            </attributes>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled="yes" />
+      <column caption="dummy1" datatype="real" name="[Calculation_4603523252884111360]" role="measure" type="quantitative">
+        <calculation class="tableau" formula="sum(price)" />
+      </column>
+      <column caption="dummy2" datatype="real" name="[Calculation_4603523252884180993]" role="measure" type="quantitative">
+        <calculation class="tableau" formula="sum(baths)" />
+      </column>
+      <column datatype="integer" name="[Number of Records]" role="measure" type="quantitative" ns0:auto-column="numrec">
+        <calculation class="tableau" formula="1" />
+      </column>
+      <column caption="Baths" datatype="real" name="[baths]" role="measure" type="quantitative" />
+      <column caption="Beds" datatype="integer" name="[beds]" role="measure" type="quantitative" />
+      <column caption="City" datatype="string" name="[city]" role="dimension" semantic-role="[City].[Name]" type="nominal" />
+      <column caption="Latitude" datatype="string" name="[latitude]" role="dimension" type="nominal" />
+      <column caption="Longitude" datatype="string" name="[longitude]" role="dimension" type="nominal" />
+      <column caption="Price" datatype="real" name="[price]" role="measure" type="quantitative" />
+      <column caption="Sale Date" datatype="string" name="[sale_date]" role="dimension" type="nominal" />
+      <column caption="Sq__Ft" datatype="real" name="[sq__ft]" role="measure" type="quantitative" />
+      <column caption="State" datatype="string" name="[state]" role="dimension" semantic-role="[State].[Name]" type="nominal" />
+      <column caption="Street" datatype="string" name="[street]" role="dimension" type="nominal" />
+      <column caption="Type" datatype="string" name="[type]" role="dimension" type="nominal" />
+      <column caption="Zip" datatype="string" name="[zip]" role="dimension" semantic-role="[ZipCode].[Name]" type="nominal" />
+      <layout dim-ordering="alphabetic" dim-percentage="0.516917" measure-ordering="alphabetic" measure-percentage="0.483083" show-structure="true" />
+      <semantic-values>
+        <semantic-value key="[Country].[Name]" value="&quot;United States&quot;" />
+      </semantic-values>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name="Sheet 1">
+      <table>
+        <view>
+          <datasources />
+          <aggregation value="true" />
+        </view>
+        <style />
+        <panes>
+          <pane>
+            <view>
+              <breakdown value="auto" />
+            </view>
+            <mark class="Automatic" />
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+    </worksheet>
+  </worksheets>
+  <windows source-height="28">
+    <window class="worksheet" maximized="true" name="Sheet 1">
+      <cards>
+        <edge name="left">
+          <strip size="160">
+            <card type="pages" />
+            <card type="filters" />
+            <card type="marks" />
+          </strip>
+        </edge>
+        <edge name="top">
+          <strip size="2147483647">
+            <card type="columns" />
+          </strip>
+          <strip size="2147483647">
+            <card type="rows" />
+          </strip>
+        </edge>
+      </cards>
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height="144" name="Sheet 1" width="174">
+      iVBORw0KGgoAAAANSUhEUgAAAK4AAACQCAYAAACRfFAzAAAACXBIWXMAAA7DAAAOwwHHb6hk
+      AAABmUlEQVR4nO3SQQ0AIBDAMMC/58MDH7KkVbDH9szMgpjzOwBeGJck45JkXJKMS5JxSTIu
+      ScYlybgkGZck45JkXJKMS5JxSTIuScYlybgkGZck45JkXJKMS5JxSTIuScYlybgkGZck45Jk
+      XJKMS5JxSTIuScYlybgkGZck45JkXJKMS5JxSTIuScYlybgkGZck45JkXJKMS5JxSTIuScYl
+      ybgkGZck45JkXJKMS5JxSTIuScYlybgkGZck45JkXJKMS5JxSTIuScYlybgkGZck45JkXJKM
+      S5JxSTIuScYlybgkGZck45JkXJKMS5JxSTIuScYlybgkGZck45JkXJKMS5JxSTIuScYlybgk
+      GZck45JkXJKMS5JxSTIuScYlybgkGZck45JkXJKMS5JxSTIuScYlybgkGZck45JkXJKMS5Jx
+      STIuScYlybgkGZck45JkXJKMS5JxSTIuScYlybgkGZck45JkXJKMS5JxSTIuScYlybgkGZck
+      45JkXJKMS5JxSTIuScYlybgkGZck45JkXJKMS5JxSTIuSRePYgUc7kJNEQAAAABJRU5ErkJg
+      gg==
+    </thumbnail>
+  </thumbnails>
+</workbook>
