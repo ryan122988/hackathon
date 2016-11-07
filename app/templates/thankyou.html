@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!-- Site made with Mobirise Website Builder v3.5.2, {{url_for('index')}} -->
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="Mobirise v3.5.2, mobirise.com">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="shortcut icon" href="static/images/logo-171x128-32.png" type="image/x-icon">
+  <meta name="description" content="">
+  
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:700,400&amp;subset=cyrillic,latin,greek,vietnamese">
+  <link rel="stylesheet" href="static/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="static/mobirise/css/style.css">
+  <link rel="stylesheet" href="static/mobirise/css/mbr-additional.css" type="text/css">
+  
+  
+  
+</head>
+<body>
+<section class="mbr-navbar mbr-navbar--freeze mbr-navbar--absolute mbr-navbar--sticky mbr-navbar--auto-collapse" id="ext_menu-0">
+    <div class="mbr-navbar__section mbr-section">
+        <div class="mbr-section__container container">
+            <div class="mbr-navbar__container">
+                <div class="mbr-navbar__column mbr-navbar__column--s mbr-navbar__brand">
+                    <span class="mbr-navbar__brand-link mbr-brand mbr-brand--inline">
+                        <span class="mbr-brand__logo"><a href="index.html"><img src="static/images/logo-171x128-32.png" class="mbr-navbar__brand-img mbr-brand__img" alt="test" title="test"></a></span>
+                        <span class="mbr-brand__name"><a class="mbr-brand__name text-white" href="{{url_for('index')}}"></a></span>
+                    </span>
+                </div>
+                <div class="mbr-navbar__hamburger mbr-hamburger"><span class="mbr-hamburger__line"></span></div>
+                <div class="mbr-navbar__column mbr-navbar__menu">
+                    <nav class="mbr-navbar__menu-box mbr-navbar__menu-box--inline-right">
+                        <div class="mbr-navbar__column">
+
+                          {% if g.user.is_authenticated%}
+
+                                {% if g.user.getUserRole() == 'admin' %}
+                                    <ul class="mbr-navbar__items mbr-navbar__items--right float-left mbr-buttons mbr-buttons--freeze mbr-buttons--right btn-decorator mbr-buttons--active mbr-buttons--only-links"><li class="mbr-navbar__item"><a class="mbr-buttons__link btn text-white" href="{{url_for('index')}}">HOME</a></li><li class="mbr-navbar__item"><a class="mbr-buttons__link btn text-white" href="{{url_for('whyus')}}">WHY US</a></li>  <li class="mbr-navbar__item"><a class="mbr-buttons__link btn text-white" href="{{url_for('rates')}}">RATES</a></li> <li class="mbr-navbar__item"><a class="mbr-buttons__link btn text-white" href="{{url_for('apply')}}">APPLY</a></li> <li class="mbr-navbar__item"><a class="mbr-buttons__link btn text-white" href="{{url_for('allactiveprofiles')}}">All ACTIVE PROFILES</a></li><li class="mbr-navbar__item"><a class="mbr-buttons__link btn text-white" href="{{url_for('newactiveprofiles')}}">NEW ACTIVE PROFILES</a></li><li class="mbr-navbar__item"><a class="mbr-buttons__link btn text-white" href="{{url_for('logout')}}">LOGOUT</a></li></ul>  
+
+                                {% endif %}
+
+
+                                {% if g.user.getUserRole() == 'loadmin' %}
+
+                                    <ul class="mbr-navbar__items mbr-navbar__items--right float-left mbr-buttons mbr-buttons--freeze mbr-buttons--right btn-decorator mbr-buttons--active mbr-buttons--only-links"><li class="mbr-navbar__item"><a class="mbr-buttons__link btn text-white" href="{{url_for('index')}}">HOME</a></li><li class="mbr-navbar__item"><a class="mbr-buttons__link btn text-white" href="{{url_for('whyus')}}">WHY US</a></li>  <li class="mbr-navbar__item"><a class="mbr-buttons__link btn text-white" href="{{url_for('rates')}}">RATES</a></li> <li class="mbr-navbar__item"><a class="mbr-buttons__link btn text-white" href="{{url_for('apply')}}">APPLY</a></li> <li class="mbr-navbar__item"><a class="mbr-buttons__link btn text-white" href="{{url_for('allactiveprofiles')}}">All ACTIVE PROFILES</a></li><li class="mbr-navbar__item"><a class="mbr-buttons__link btn text-white" href="{{url_for('newactiveprofiles')}}">NEW ACTIVE PROFILES</a></li><li class="mbr-navbar__item"><a class="mbr-buttons__link btn text-white" href="{{url_for('myactiveprofiles')}}">MY ACTIVE PROFILES</a></li><li class="mbr-navbar__item"><a class="mbr-buttons__link btn text-white" href="{{url_for('logout')}}">LOGOUT</a></li></ul> 
+                                    
+                                {% endif %}
+
+
+                                {% if g.user.getUserRole() == 'loadmin+' %}
+
+                                    <ul class="mbr-navbar__items mbr-navbar__items--right float-left mbr-buttons mbr-buttons--freeze mbr-buttons--right btn-decorator mbr-buttons--active mbr-buttons--only-links"><li class="mbr-navbar__item"><a class="mbr-buttons__link btn text-white" href="{{url_for('index')}}">HOME</a></li><li class="mbr-navbar__item"><a class="mbr-buttons__link btn text-white" href="{{url_for('whyus')}}">WHY US</a></li>  <li class="mbr-navbar__item"><a class="mbr-buttons__link btn text-white" href="{{url_for('rates')}}">RATES</a></li> <li class="mbr-navbar__item"><a class="mbr-buttons__link btn text-white" href="{{url_for('apply')}}">APPLY</a></li> <li class="mbr-navbar__item"><a class="mbr-buttons__link btn text-white" href="{{url_for('allactiveprofiles')}}">All ACTIVE PROFILES</a></li><li class="mbr-navbar__item"><a class="mbr-buttons__link btn text-white" href="{{url_for('newactiveprofiles')}}">NEW ACTIVE PROFILES</a></li><li class="mbr-navbar__item"><a class="mbr-buttons__link btn text-white" href="{{url_for('myactiveprofiles')}}">MY ACTIVE PROFILES</a></li><li class="mbr-navbar__item"><a class="mbr-buttons__link btn text-white" href="{{url_for('logout')}}">LOGOUT</a></li></ul> 
+
+                                {% endif %}
+
+
+                                {% if g.user.getUserRole() == 'rea' %}
+                                    <ul class="mbr-navbar__items mbr-navbar__items--right float-left mbr-buttons mbr-buttons--freeze mbr-buttons--right btn-decorator mbr-buttons--active mbr-buttons--only-links"><li class="mbr-navbar__item"><a class="mbr-buttons__link btn text-white" href="{{url_for('index')}}">HOME</a></li><li class="mbr-navbar__item"><a class="mbr-buttons__link btn text-white" href="{{url_for('whyus')}}">WHY US</a></li>  <li class="mbr-navbar__item"><a class="mbr-buttons__link btn text-white" href="{{url_for('rates')}}">RATES</a></li> <li class="mbr-navbar__item"><a class="mbr-buttons__link btn text-white" href="{{url_for('apply')}}">APPLY</a></li> <li class="mbr-navbar__item"><a class="mbr-buttons__link btn text-white" href="{{url_for('myactiveprofiles')}}">MY ACTIVE PROFILES</a></li><li class="mbr-navbar__item"><a class="mbr-buttons__link btn text-white" href="{{url_for('logout')}}">LOGOUT</a></li></ul>                            
+                                {% endif %}
+                                {% if g.user.getUserRole() == 'lo' %}
+                                    <ul class="mbr-navbar__items mbr-navbar__items--right float-left mbr-buttons mbr-buttons--freeze mbr-buttons--right btn-decorator mbr-buttons--active mbr-buttons--only-links"><li class="mbr-navbar__item"><a class="mbr-buttons__link btn text-white" href="{{url_for('index')}}">HOME</a></li><li class="mbr-navbar__item"><a class="mbr-buttons__link btn text-white" href="{{url_for('whyus')}}">WHY US</a></li>  <li class="mbr-navbar__item"><a class="mbr-buttons__link btn text-white" href="{{url_for('rates')}}">RATES</a></li> <li class="mbr-navbar__item"><a class="mbr-buttons__link btn text-white" href="{{url_for('apply')}}">APPLY</a></li> <li class="mbr-navbar__item"><a class="mbr-buttons__link btn text-white" href="{{url_for('myactiveprofiles')}}">MY ACTIVE PROFILES</a></li><li class="mbr-navbar__item"><a class="mbr-buttons__link btn text-white" href="{{url_for('logout')}}">LOGOUT</a></li></ul>      
+                                {% endif %}
+                                {% if g.user.getUserRole() == 'cust' %}
+                                    <ul class="mbr-navbar__items mbr-navbar__items--right float-left mbr-buttons mbr-buttons--freeze mbr-buttons--right btn-decorator mbr-buttons--active mbr-buttons--only-links"><li class="mbr-navbar__item"><a class="mbr-buttons__link btn text-white" href="{{url_for('index')}}">HOME</a></li><li class="mbr-navbar__item"><a class="mbr-buttons__link btn text-white" href="{{url_for('whyus')}}">WHY US</a></li>  <li class="mbr-navbar__item"><a class="mbr-buttons__link btn text-white" href="{{url_for('rates')}}">RATES</a></li> <li class="mbr-navbar__item"><a class="mbr-buttons__link btn text-white" href="{{url_for('apply')}}">APPLY</a></li> <li class="mbr-navbar__item"><a class="mbr-buttons__link btn text-white" href="{{url_for('myloanprofiles')}}">MY LOAN PROFILE</a></li><li class="mbr-navbar__item"><a class="mbr-buttons__link btn text-white" href="{{url_for('logout')}}">LOGOUT</a></li></ul>   
+                                {% endif %}
+
+
+                            {% endif %}
+                            {% if not g.user.is_authenticated %}
+                                 <ul class="mbr-navbar__items mbr-navbar__items--right float-left mbr-buttons mbr-buttons--freeze mbr-buttons--right btn-decorator mbr-buttons--active mbr-buttons--only-links"><li class="mbr-navbar__item"><a class="mbr-buttons__link btn text-white" href="{{url_for('index')}}">HOME</a></li><li class="mbr-navbar__item"><a class="mbr-buttons__link btn text-white" href="{{url_for('whyus')}}">WHY US</a></li>  <li class="mbr-navbar__item"><a class="mbr-buttons__link btn text-white" href="{{url_for('rates')}}">RATES</a></li> <li class="mbr-navbar__item"><a class="mbr-buttons__link btn text-white" href="{{url_for('apply')}}">APPLY</a></li> </ul>                                
+                            {% endif %}        
+                            
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="engine"><a rel="external" href="{{url_for('index')}}">offline web site design software download</a></section><section class="mbr-section mbr-section--relative mbr-section--fixed-size mbr-after-navbar" id="content5-0" style="background-color: rgb(255, 255, 255);">
+    
+    <div class="mbr-section__container container mbr-section__container--first" style="padding-top: 124px;">
+        <div class="mbr-header mbr-header--wysiwyg row">
+            <div class="col-sm-8 col-sm-offset-2">
+                <h3 class="mbr-header__text">Thank you for submitting your information.  A loan officer will be reaching out to you shortly.</h3>
+                
+            </div>
+        </div>
+    </div>
+
+    
+</section>
+
+<section class="mbr-section mbr-section--relative mbr-section--fixed-size" id="contacts1-0" style="background-color: rgb(60, 60, 60);">
+    
+    <div class="mbr-section__container container">
+        <div class="mbr-contacts mbr-contacts--wysiwyg row" style="padding-top: 45px; padding-bottom: 45px;">
+            <div class="col-sm-4">
+                <div><a href="index.html"><img src="static/images/logo-265x198-77.png" class="mbr-contacts__img mbr-contacts__img--left"></a></div>
+            </div>
+            <div class="col-sm-8">
+                <div class="row">
+                    <div class="col-sm-4">
+                        <p class="mbr-contacts__text"><strong>ADDRESS</strong><br>
+1234 Street Name<br>
+City, AA 99999</p>
+                    </div>
+                    <div class="col-sm-4">
+                        <p class="mbr-contacts__text"><strong>CONTACTS</strong><br>
+Email: test@blahblah.com<br>
+Phone: +1 (0) 000 0000 001<br>
+Fax: +1 (0) 000 0000 002</p>
+                    </div>
+                    <div class="col-sm-4"><p class="mbr-contacts__text"><strong>LINKS</strong></p><ul class="mbr-contacts__list"><li><a href="{{url_for('login')}}">Admin</a></li><li><br></li></ul></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+  <script src="static/web/static/jquery/jquery.min.js"></script>
+  <script src="static/bootstrap/js/bootstrap.min.js"></script>
+  <script src="static/smooth-scroll/SmoothScroll.js"></script>
+  <script src="static/mobirise/js/script.js"></script>
+  
+  
+</body>
+</html>

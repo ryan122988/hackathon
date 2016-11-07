@@ -21,4 +21,20 @@ def index():
 		return render_template('index.html', title='Home')
 
 
-	
+@app.route('/calculationReplacement', methods=['GET', 'POST'])
+def calculationReplacement():
+
+	if request.method == 'GET':
+
+		return render_template('calculationReplacement.html', title='calculation replacement')
+
+
+@app.route('/siteMigration', methods=['GET', 'POST'])
+def siteMigration():
+
+	if request.method == 'GET':
+
+		return render_template('siteMigration.html', title='site migration')
+
+
+		

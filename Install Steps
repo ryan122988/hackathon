@@ -1,0 +1,20 @@
+Install Steps
+---------------------------------------------------------
+1. Copy files to server by cloning git repo
+
+2. Install all software and packages
+
+3. Create the nginx configuration by copying the information from the nginx.conf file into file created by the following command:
+	 sudo nano /etc/nginx/sites-available/app
+
+4. Remove default in sites-available: sudo rm /etc/nginx/sites-available/default
+
+5. Create they symbolic link to the app file in sites-enabled for nginx: sudo ln -s /etc/nginx/sites-available/app /etc/nginx/sites-enabled
+
+6. Remove default in sites-enabled: sudo rm /etc/nginx/sites-enabled/default
+
+7. Copy uwsgi.service file to systemd: sudo cp /home/appsender12345/development/realEstateSoftware/uwsgi.service /lib/systemd/system
+
+8. Enable the uwsgi service: sudo systemctl enable uwsgi.service
+
+9. Start the uwsgi service: sudo systemctl start uwsgi

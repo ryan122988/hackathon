@@ -57,7 +57,7 @@
     </div>
     <div class="mbr-section__container container mbr-section__container--last" style="padding-bottom: 93px;">
         <div class="row">
-            <div class="mbr-article mbr-article--wysiwyg col-sm-8 col-sm-offset-2"><p>Welcome to our hackathon submission.  In it we have created 3 tool that all run from this one convenient site.  This first tool lets you upload a file in either csv or xlsx format.  It creates a tde from that file and uploads it to a target server.  Check out the other two for more great stuff.</p></div>
+            <div class="mbr-article mbr-article--wysiwyg col-sm-8 col-sm-offset-2"><p>Welcome to our hackathon submission.  In it we have created 3 tool that all run from this one convenient site.  This tool migrates all the content from one site to a new site.  This can be on the same server or to a new server.</p></div>
         </div>
     </div>
     
@@ -71,7 +71,7 @@
                 <div class="row">
                     <div class="col-sm-8 col-sm-offset-2" data-form-type="formoid">
                         <div class="mbr-header mbr-header--center mbr-header--std-padding">
-                            <h2 class="mbr-header__text">Create and Publish TDE</h2>
+                            <h2 class="mbr-header__text">Site Migration</h2>
                         </div>
                         <div data-form-alert="true">
                             <div class="hide" data-form-alert-success="true">Thanks for filling out form!</div>
@@ -80,20 +80,35 @@
                         <form action="{{url_for('index')}}" method="post" data-form-title="submission">
                             
                             <div class="form-group">
-                                <input type="text" class="form-control" name="server" required="" placeholder="server*" data-form-field="server">
+                                <input type="text" class="form-control" name="sourceserver" required="" placeholder="sourceserver*" data-form-field="sourceserver">
                             </div>
                             <div class="form-group">
-                                <input type="text" class="form-control" name="site" required="" placeholder="site*" data-form-field="site">
+                                <input type="text" class="form-control" name="sourcesite" required="" placeholder="sourcesite*" data-form-field="sourcesite">
+                            </div>
+                            <div class="form-group">
+                                <input type="text" class="form-control" name="sourceusername" required="" placeholder="sourceusername*" data-form-field="sourceusername">
+                            </div>
+                            <div class="form-group">
+                                <input type="text" class="form-control" name="sourcepassword" required="" placeholder="sourcepassword*" data-form-field="sourcepassword">
+                            </div>
+                            <div class="form-group">
+                                <input type="text" class="form-control" name="targetserver" required="" placeholder="targetserver*" data-form-field="targetserver">
+                            </div>
+                            <div class="form-group">
+                                <input type="text" class="form-control" name="targetsite" required="" placeholder="targetsite*" data-form-field="targetsite">
+                            </div>   
+                            <div class="form-group">
+                                <input type="text" class="form-control" name="targetusername" required="" placeholder="targetusername*" data-form-field="targetusername">
+                            </div>
+                            <div class="form-group">
+                                <input type="text" class="form-control" name="targetpassword" required="" placeholder="targetpassword*" data-form-field="targetpassword">
+                            </div>                         
+                            <div class="form-group">
+                                <input type="text" class="form-control" name="newSiteDatasourceUsername" required="" placeholder="newSiteDatasourceUsername*" data-form-field="newSiteDatasourceUsername">
                             </div>                            
                             <div class="form-group">
-                                <input type="email" class="form-control" name="username" required="" placeholder="username*" data-form-field="username">
-                            </div>
-                            <div class="form-group">
-                                <input type="tel" class="form-control" name="password" required="" placeholder="password" data-form-field="password">
-                            </div>
-                            <div class = "form-group">
-                                <input type=file name="file[]" multiple ="">
-                            </div>
+                                <input type="text" class="form-control" name="newSiteDatasourcePassword" required="" placeholder="newSiteDatasourcePassword*" data-form-field="newSiteDatasourcePassword">
+                            </div>   
                             <div class="mbr-buttons mbr-buttons--right"><button type="submit" class="mbr-buttons__btn btn btn-lg btn-danger">Submit</button></div>
                         </form>
                     </div>

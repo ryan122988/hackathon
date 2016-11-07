@@ -57,7 +57,7 @@
     </div>
     <div class="mbr-section__container container mbr-section__container--last" style="padding-bottom: 93px;">
         <div class="row">
-            <div class="mbr-article mbr-article--wysiwyg col-sm-8 col-sm-offset-2"><p>Welcome to our hackathon submission.  In it we have created 3 tool that all run from this one convenient site.  This first tool lets you upload a file in either csv or xlsx format.  It creates a tde from that file and uploads it to a target server.  Check out the other two for more great stuff.</p></div>
+            <div class="mbr-article mbr-article--wysiwyg col-sm-8 col-sm-offset-2"><p>Welcome to our hackathon submission.  In it we have created 3 tool that all run from this one convenient site.  This tool is for replacing placeholder calculations in a workbook with their actual values.  It takes in an excel file for the calculations and replaces the placeholder calcs in the workbook with their value from the file.</p></div>
         </div>
     </div>
     
@@ -71,7 +71,7 @@
                 <div class="row">
                     <div class="col-sm-8 col-sm-offset-2" data-form-type="formoid">
                         <div class="mbr-header mbr-header--center mbr-header--std-padding">
-                            <h2 class="mbr-header__text">Create and Publish TDE</h2>
+                            <h2 class="mbr-header__text">Calculation Replacement</h2>
                         </div>
                         <div data-form-alert="true">
                             <div class="hide" data-form-alert-success="true">Thanks for filling out form!</div>
@@ -79,18 +79,6 @@
 
                         <form action="{{url_for('index')}}" method="post" data-form-title="submission">
                             
-                            <div class="form-group">
-                                <input type="text" class="form-control" name="server" required="" placeholder="server*" data-form-field="server">
-                            </div>
-                            <div class="form-group">
-                                <input type="text" class="form-control" name="site" required="" placeholder="site*" data-form-field="site">
-                            </div>                            
-                            <div class="form-group">
-                                <input type="email" class="form-control" name="username" required="" placeholder="username*" data-form-field="username">
-                            </div>
-                            <div class="form-group">
-                                <input type="tel" class="form-control" name="password" required="" placeholder="password" data-form-field="password">
-                            </div>
                             <div class = "form-group">
                                 <input type=file name="file[]" multiple ="">
                             </div>
