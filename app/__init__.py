@@ -10,6 +10,11 @@ import os
 UPLOAD_FOLDER = 'C:\\temp\\hackathon\\upload'
 DOWNLOAD_FOLDER = 'C:\\temp\\hackathon\\download'
 
+
+#UPLOAD_FOLDER = '/home/tc16hackathonuser/hackathon/upload'
+#DOWNLOAD_FOLDER = '/home/tc16hackathonuser/hackathon/download'
+
+
 #print(cwd)
 #print(UPLOAD_FOLDER)
 

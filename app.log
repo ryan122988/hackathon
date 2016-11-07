@@ -542,3 +542,15 @@
 2016-11-07 17:44:24,267 finished
 2016-11-07 17:44:24,704  * Debugger is active!
 2016-11-07 17:44:24,704  * Debugger pin code: 201-753-607
+2016-11-07 17:51:22,593  * Detected change in 'C:\\temp\\hackathon\\app\\__init__.py', reloading
+2016-11-07 17:51:22,630  * Restarting with stat
+2016-11-07 17:51:23,069 Started
+2016-11-07 17:51:23,070 finished
+2016-11-07 17:51:23,475  * Debugger is active!
+2016-11-07 17:51:23,475  * Debugger pin code: 201-753-607
+2016-11-07 17:51:31,671  * Detected change in 'C:\\temp\\hackathon\\app\\__init__.py', reloading
+2016-11-07 17:51:31,789  * Restarting with stat
+2016-11-07 17:51:32,414 Started
+2016-11-07 17:51:32,416 finished
+2016-11-07 17:51:33,240  * Debugger is active!
+2016-11-07 17:51:33,240  * Debugger pin code: 201-753-607
