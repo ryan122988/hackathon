@@ -33,44 +33,9 @@
                     <nav class="mbr-navbar__menu-box mbr-navbar__menu-box--inline-right">
                         <div class="mbr-navbar__column">
 
-                          {% if g.user.is_authenticated%}
 
-                                {% if g.user.getUserRole() == 'admin' %}
-                                    <ul class="mbr-navbar__items mbr-navbar__items--right float-left mbr-buttons mbr-buttons--freeze mbr-buttons--right btn-decorator mbr-buttons--active mbr-buttons--only-links"><li class="mbr-navbar__item"><a class="mbr-buttons__link btn text-white" href="{{url_for('index')}}">HOME</a></li><li class="mbr-navbar__item"><a class="mbr-buttons__link btn text-white" href="{{url_for('whyus')}}">WHY US</a></li>  <li class="mbr-navbar__item"><a class="mbr-buttons__link btn text-white" href="{{url_for('rates')}}">RATES</a></li> <li class="mbr-navbar__item"><a class="mbr-buttons__link btn text-white" href="{{url_for('apply')}}">APPLY</a></li> <li class="mbr-navbar__item"><a class="mbr-buttons__link btn text-white" href="{{url_for('allactiveprofiles')}}">All ACTIVE PROFILES</a></li><li class="mbr-navbar__item"><a class="mbr-buttons__link btn text-white" href="{{url_for('newactiveprofiles')}}">NEW ACTIVE PROFILES</a></li><li class="mbr-navbar__item"><a class="mbr-buttons__link btn text-white" href="{{url_for('logout')}}">LOGOUT</a></li></ul>  
+                            <ul class="mbr-navbar__items mbr-navbar__items--right float-left mbr-buttons mbr-buttons--freeze mbr-buttons--right btn-decorator mbr-buttons--active mbr-buttons--only-links"><li class="mbr-navbar__item"><a class="mbr-buttons__link btn text-white" href="{{url_for('index')}}">File to Extract on Server</a></li><li class="mbr-navbar__item"><a class="mbr-buttons__link btn text-white" href="{{url_for('calculationReplacement')}}">Calculation Replacement</a></li> </ul>   
 
-                                {% endif %}
-
-
-                                {% if g.user.getUserRole() == 'loadmin' %}
-
-                                    <ul class="mbr-navbar__items mbr-navbar__items--right float-left mbr-buttons mbr-buttons--freeze mbr-buttons--right btn-decorator mbr-buttons--active mbr-buttons--only-links"><li class="mbr-navbar__item"><a class="mbr-buttons__link btn text-white" href="{{url_for('index')}}">HOME</a></li><li class="mbr-navbar__item"><a class="mbr-buttons__link btn text-white" href="{{url_for('whyus')}}">WHY US</a></li>  <li class="mbr-navbar__item"><a class="mbr-buttons__link btn text-white" href="{{url_for('rates')}}">RATES</a></li> <li class="mbr-navbar__item"><a class="mbr-buttons__link btn text-white" href="{{url_for('apply')}}">APPLY</a></li> <li class="mbr-navbar__item"><a class="mbr-buttons__link btn text-white" href="{{url_for('allactiveprofiles')}}">All ACTIVE PROFILES</a></li><li class="mbr-navbar__item"><a class="mbr-buttons__link btn text-white" href="{{url_for('newactiveprofiles')}}">NEW ACTIVE PROFILES</a></li><li class="mbr-navbar__item"><a class="mbr-buttons__link btn text-white" href="{{url_for('myactiveprofiles')}}">MY ACTIVE PROFILES</a></li><li class="mbr-navbar__item"><a class="mbr-buttons__link btn text-white" href="{{url_for('logout')}}">LOGOUT</a></li></ul> 
-                                    
-                                {% endif %}
-
-
-                                {% if g.user.getUserRole() == 'loadmin+' %}
-
-                                    <ul class="mbr-navbar__items mbr-navbar__items--right float-left mbr-buttons mbr-buttons--freeze mbr-buttons--right btn-decorator mbr-buttons--active mbr-buttons--only-links"><li class="mbr-navbar__item"><a class="mbr-buttons__link btn text-white" href="{{url_for('index')}}">HOME</a></li><li class="mbr-navbar__item"><a class="mbr-buttons__link btn text-white" href="{{url_for('whyus')}}">WHY US</a></li>  <li class="mbr-navbar__item"><a class="mbr-buttons__link btn text-white" href="{{url_for('rates')}}">RATES</a></li> <li class="mbr-navbar__item"><a class="mbr-buttons__link btn text-white" href="{{url_for('apply')}}">APPLY</a></li> <li class="mbr-navbar__item"><a class="mbr-buttons__link btn text-white" href="{{url_for('allactiveprofiles')}}">All ACTIVE PROFILES</a></li><li class="mbr-navbar__item"><a class="mbr-buttons__link btn text-white" href="{{url_for('newactiveprofiles')}}">NEW ACTIVE PROFILES</a></li><li class="mbr-navbar__item"><a class="mbr-buttons__link btn text-white" href="{{url_for('myactiveprofiles')}}">MY ACTIVE PROFILES</a></li><li class="mbr-navbar__item"><a class="mbr-buttons__link btn text-white" href="{{url_for('logout')}}">LOGOUT</a></li></ul> 
-
-                                {% endif %}
-
-
-                                {% if g.user.getUserRole() == 'rea' %}
-                                    <ul class="mbr-navbar__items mbr-navbar__items--right float-left mbr-buttons mbr-buttons--freeze mbr-buttons--right btn-decorator mbr-buttons--active mbr-buttons--only-links"><li class="mbr-navbar__item"><a class="mbr-buttons__link btn text-white" href="{{url_for('index')}}">HOME</a></li><li class="mbr-navbar__item"><a class="mbr-buttons__link btn text-white" href="{{url_for('whyus')}}">WHY US</a></li>  <li class="mbr-navbar__item"><a class="mbr-buttons__link btn text-white" href="{{url_for('rates')}}">RATES</a></li> <li class="mbr-navbar__item"><a class="mbr-buttons__link btn text-white" href="{{url_for('apply')}}">APPLY</a></li> <li class="mbr-navbar__item"><a class="mbr-buttons__link btn text-white" href="{{url_for('myactiveprofiles')}}">MY ACTIVE PROFILES</a></li><li class="mbr-navbar__item"><a class="mbr-buttons__link btn text-white" href="{{url_for('logout')}}">LOGOUT</a></li></ul>                            
-                                {% endif %}
-                                {% if g.user.getUserRole() == 'lo' %}
-                                    <ul class="mbr-navbar__items mbr-navbar__items--right float-left mbr-buttons mbr-buttons--freeze mbr-buttons--right btn-decorator mbr-buttons--active mbr-buttons--only-links"><li class="mbr-navbar__item"><a class="mbr-buttons__link btn text-white" href="{{url_for('index')}}">HOME</a></li><li class="mbr-navbar__item"><a class="mbr-buttons__link btn text-white" href="{{url_for('whyus')}}">WHY US</a></li>  <li class="mbr-navbar__item"><a class="mbr-buttons__link btn text-white" href="{{url_for('rates')}}">RATES</a></li> <li class="mbr-navbar__item"><a class="mbr-buttons__link btn text-white" href="{{url_for('apply')}}">APPLY</a></li> <li class="mbr-navbar__item"><a class="mbr-buttons__link btn text-white" href="{{url_for('myactiveprofiles')}}">MY ACTIVE PROFILES</a></li><li class="mbr-navbar__item"><a class="mbr-buttons__link btn text-white" href="{{url_for('logout')}}">LOGOUT</a></li></ul>      
-                                {% endif %}
-                                {% if g.user.getUserRole() == 'cust' %}
-                                    <ul class="mbr-navbar__items mbr-navbar__items--right float-left mbr-buttons mbr-buttons--freeze mbr-buttons--right btn-decorator mbr-buttons--active mbr-buttons--only-links"><li class="mbr-navbar__item"><a class="mbr-buttons__link btn text-white" href="{{url_for('index')}}">HOME</a></li><li class="mbr-navbar__item"><a class="mbr-buttons__link btn text-white" href="{{url_for('whyus')}}">WHY US</a></li>  <li class="mbr-navbar__item"><a class="mbr-buttons__link btn text-white" href="{{url_for('rates')}}">RATES</a></li> <li class="mbr-navbar__item"><a class="mbr-buttons__link btn text-white" href="{{url_for('apply')}}">APPLY</a></li> <li class="mbr-navbar__item"><a class="mbr-buttons__link btn text-white" href="{{url_for('myloanprofiles')}}">MY LOAN PROFILE</a></li><li class="mbr-navbar__item"><a class="mbr-buttons__link btn text-white" href="{{url_for('logout')}}">LOGOUT</a></li></ul>   
-                                {% endif %}
-
-
-                            {% endif %}
-                            {% if not g.user.is_authenticated %}
-                                 <ul class="mbr-navbar__items mbr-navbar__items--right float-left mbr-buttons mbr-buttons--freeze mbr-buttons--right btn-decorator mbr-buttons--active mbr-buttons--only-links"><li class="mbr-navbar__item"><a class="mbr-buttons__link btn text-white" href="{{url_for('index')}}">HOME</a></li><li class="mbr-navbar__item"><a class="mbr-buttons__link btn text-white" href="{{url_for('whyus')}}">WHY US</a></li>  <li class="mbr-navbar__item"><a class="mbr-buttons__link btn text-white" href="{{url_for('rates')}}">RATES</a></li> <li class="mbr-navbar__item"><a class="mbr-buttons__link btn text-white" href="{{url_for('apply')}}">APPLY</a></li> </ul>                                
-                            {% endif %}                  
-                            
                         </div>
                     </nav>
                 </div>
@@ -84,13 +49,8 @@
     <div class="mbr-section__container container mbr-section__container--first" style="padding-top: 124px;">
         <div class="mbr-header mbr-header--wysiwyg row">
             <div class="col-sm-8 col-sm-offset-2">
-                {% if message %}
-
-                  <h3 class="mbr-header__text">{{message}}</h3>
-
-                {% else %}
+ 
                   <h3 class="mbr-header__text">Success</h3>
-                {% endif %}
                 
             </div>
         </div>
@@ -119,7 +79,7 @@ Email: test@blahblah.com<br>
 Phone: +1 (0) 000 0000 001<br>
 Fax: +1 (0) 000 0000 002</p>
                     </div>
-                    <div class="col-sm-4"><p class="mbr-contacts__text"><strong>LINKS</strong></p><ul class="mbr-contacts__list"><li><a href="{{url_for('login')}}">Admin</a></li><li><br></li></ul></div>
+
                 </div>
             </div>
         </div>

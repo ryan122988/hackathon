@@ -1,6 +1,6 @@
 from flask import Flask, session, render_template, request, flash, url_for, redirect, abort, g, Response, send_from_directory
 #from flask.ext.login import login_user, logout_user, current_user, login_required
-from app import app, csvTemplate
+from app import app, csvTemplate, createExtract
 import logging, logging.handlers
 
 import os
@@ -29,6 +29,11 @@ def index():
 
 	files = request.files.getlist("file[]")
 
+	server = request.form['server']
+	site = request.form['site']
+	username = request.form['username']
+	password = request.form['password']
+
 	#file = request.files['file']
 	csvFile = ''
 	tableauFile = ''
@@ -46,6 +51,10 @@ def index():
 				outputFile = filename
 			file.save(os.path.join(app.config['UPLOAD_FOLDER'], filename))
 			#print (filename)
+
+	#createExtract.publishCsvDatasource(server, site, username, password, csvFile)
+	os.system("python "+server+" "+site+" "+username+" "+password+" "+csvFile)
+	return render_template('success.html', title='Success')
 		
 
 @app.route('/calculationReplacement', methods=['GET', 'POST'])

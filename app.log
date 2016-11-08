@@ -554,3 +554,70 @@
 2016-11-07 17:51:32,416 finished
 2016-11-07 17:51:33,240  * Debugger is active!
 2016-11-07 17:51:33,240  * Debugger pin code: 201-753-607
+2016-11-07 18:19:53,965 Started
+2016-11-07 18:19:53,965 finished
+2016-11-07 18:19:54,498  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2016-11-07 18:19:54,517  * Restarting with stat
+2016-11-07 18:19:56,044 Started
+2016-11-07 18:19:56,045 finished
+2016-11-07 18:19:56,824  * Debugger is active!
+2016-11-07 18:19:56,825  * Debugger pin code: 201-753-607
+2016-11-07 18:20:01,467 127.0.0.1 - - [07/Nov/2016 18:20:01] "GET / HTTP/1.1" 200 -
+2016-11-07 18:23:15,210  * Detected change in 'C:\\temp\\hackathon\\app\\views.py', reloading
+2016-11-07 18:23:15,270  * Restarting with stat
+2016-11-07 18:23:15,951 Started
+2016-11-07 18:23:15,952 finished
+2016-11-07 18:23:19,811 Started
+2016-11-07 18:23:19,811 finished
+2016-11-07 18:23:33,631 Started
+2016-11-07 18:23:33,631 finished
+2016-11-07 18:23:33,984  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2016-11-07 18:23:33,986  * Restarting with stat
+2016-11-07 18:23:34,334 Started
+2016-11-07 18:23:34,334 finished
+2016-11-07 18:23:34,925  * Debugger is active!
+2016-11-07 18:23:34,926  * Debugger pin code: 201-753-607
+2016-11-07 18:23:36,648 127.0.0.1 - - [07/Nov/2016 18:23:36] "GET / HTTP/1.1" 200 -
+2016-11-07 18:23:36,907 127.0.0.1 - - [07/Nov/2016 18:23:36] "GET /static/images/logo-171x128-32.png HTTP/1.1" 200 -
+2016-11-07 18:24:39,674 Started
+2016-11-07 18:24:39,674 finished
+2016-11-07 18:24:40,509  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2016-11-07 18:24:40,514  * Restarting with stat
+2016-11-07 18:24:41,264 Started
+2016-11-07 18:24:41,265 finished
+2016-11-07 18:24:41,626  * Debugger is active!
+2016-11-07 18:24:41,626  * Debugger pin code: 201-753-607
+2016-11-07 18:24:48,750 127.0.0.1 - - [07/Nov/2016 18:24:48] "GET / HTTP/1.1" 200 -
+2016-11-07 18:24:49,014 127.0.0.1 - - [07/Nov/2016 18:24:49] "GET /static/images/logo-171x128-32.png HTTP/1.1" 200 -
+2016-11-07 18:25:02,966 127.0.0.1 - - [07/Nov/2016 18:25:02] "POST /index HTTP/1.1" 200 -
+2016-11-07 18:26:34,694  * Detected change in 'C:\\temp\\hackathon\\app\\views.py', reloading
+2016-11-07 18:26:34,763  * Restarting with stat
+2016-11-07 18:26:35,178 Started
+2016-11-07 18:26:35,178 finished
+2016-11-07 18:26:35,587  * Debugger is active!
+2016-11-07 18:26:35,589  * Debugger pin code: 201-753-607
+2016-11-07 18:26:56,980  * Detected change in 'C:\\temp\\hackathon\\app\\views.py', reloading
+2016-11-07 18:26:57,028  * Restarting with stat
+2016-11-07 18:26:57,502 Started
+2016-11-07 18:26:57,503 finished
+2016-11-07 18:26:58,054  * Debugger is active!
+2016-11-07 18:26:58,055  * Debugger pin code: 201-753-607
+2016-11-07 18:27:04,685 test
+2016-11-07 18:27:04,685 test
+2016-11-07 18:27:04,685 test
+2016-11-07 18:27:04,686 test
+2016-11-07 18:27:04,703 127.0.0.1 - - [07/Nov/2016 18:27:04] "POST /index HTTP/1.1" 200 -
+2016-11-07 18:27:25,678  * Detected change in 'C:\\temp\\hackathon\\app\\views.py', reloading
+2016-11-07 18:27:25,731  * Restarting with stat
+2016-11-07 18:27:26,067 Started
+2016-11-07 18:27:26,067 finished
+2016-11-07 18:27:26,456  * Debugger is active!
+2016-11-07 18:27:26,457  * Debugger pin code: 201-753-607
+2016-11-07 18:36:41,784  * Detected change in 'C:\\temp\\hackathon\\app\\views.py', reloading
+2016-11-07 18:36:41,840  * Restarting with stat
+2016-11-07 18:36:42,282 Started
+2016-11-07 18:36:42,282 finished
+2016-11-07 18:36:47,868 Started
+2016-11-07 18:36:47,868 finished
+2016-11-07 18:39:34,219 Started
+2016-11-07 18:39:34,219 finished
