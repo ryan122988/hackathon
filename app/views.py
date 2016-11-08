@@ -57,7 +57,7 @@ def index():
 	logging.error(csvFile)
 	logging.error(server)
 	#createExtract.publishCsvDatasource(server, site, username, password, csvFile)
-	#os.system("python "+server+" "+site+" "+username+" "+password+" "+csvFile)
+	os.system("python /home/ryan122988/hackathon/app/createExtract.py "+server+" "+site+" "+username+" "+password+" "+csvFile)
 	return render_template('success.html', title='Success')
 		
 

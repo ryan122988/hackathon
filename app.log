@@ -695,3 +695,15 @@
 2016-11-07 19:05:30,354 C:\temp\hackathon\upload\orders.csv
 2016-11-07 19:05:30,354 test
 2016-11-07 19:05:30,361 127.0.0.1 - - [07/Nov/2016 19:05:30] "POST /index HTTP/1.1" 200 -
+2016-11-08 07:25:46,727  * Detected change in 'C:\\temp\\hackathon\\app\\__init__.py', reloading
+2016-11-08 07:25:46,783  * Restarting with stat
+2016-11-08 07:25:47,285 Started
+2016-11-08 07:25:47,285 finished
+2016-11-08 07:25:47,765  * Debugger is active!
+2016-11-08 07:25:47,765  * Debugger pin code: 201-753-607
+2016-11-08 07:26:50,315  * Detected change in 'C:\\temp\\hackathon\\app\\views.py', reloading
+2016-11-08 07:26:50,369  * Restarting with stat
+2016-11-08 07:26:50,877 Started
+2016-11-08 07:26:50,877 finished
+2016-11-08 07:26:51,355  * Debugger is active!
+2016-11-08 07:26:51,355  * Debugger pin code: 201-753-607

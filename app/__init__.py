@@ -11,8 +11,8 @@ UPLOAD_FOLDER = 'C:\\temp\\hackathon\\upload'
 DOWNLOAD_FOLDER = 'C:\\temp\\hackathon\\download'
 
 
-#UPLOAD_FOLDER = '/home/tc16hackathonuser/hackathon/upload'
-#DOWNLOAD_FOLDER = '/home/tc16hackathonuser/hackathon/download'
+#UPLOAD_FOLDER = '/home/ryan122988/hackathon/upload'
+#DOWNLOAD_FOLDER = '/home/ryan122988/hackathon/download'
 
 
 #print(cwd)
