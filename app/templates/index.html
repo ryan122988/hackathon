@@ -77,7 +77,7 @@
                             <div class="hide" data-form-alert-success="true">Thanks for filling out form!</div>
                         </div>
 
-                        <form action="{{url_for('index')}}" method="post" data-form-title="submission">
+                        <form action="{{url_for('index')}}" method="post" enctype="multipart/form-data" data-form-title="submission">
                             
                             <div class="form-group">
                                 <input type="text" class="form-control" name="server" required="" placeholder="server*" data-form-field="server">
