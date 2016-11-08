@@ -176,7 +176,7 @@ def publishCsvDatasource(serverURL, siteName, username, password, filename):
 #publishCsvDatasource('https://na2-maxtst.zilliant.com/', 'customersupport4', 'mgreenslet', 'Z1ll1ant', 'orders.csv')
 
 def main(argv):
-	publishCsvDatasource(argv[1], argv[2], argv[3], argv[4], argv[5])
+	publishCsvDatasource(argv[0], argv[1], argv[2], argv[3], argv[4])
 
 if __name__ == "__main__":
    main(sys.argv[1:])
